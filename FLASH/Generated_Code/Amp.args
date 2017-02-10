@@ -1,0 +1,21 @@
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-I"D:/Freescale_Projects/MS3/Project_Headers"
+-I"D:/Freescale_Projects/MS3/Project_Settings/Startup_Code"
+-I"D:/Fresscale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"D:/Fresscale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-I"D:/Freescale_Projects/MS3/Generated_Code"
+-I"D:/Freescale_Projects/MS3/Sources"
+-I"D:/Fresscale/CW MCU v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc"
+-I"D:/Fresscale/CW MCU v10.6/MCU/ProcessorExpert/lib/Kinetis/iofiles"
+-O0
+-ffunction-sections
+-fdata-sections
+-Wall
+-c
+-fmessage-length=0
+-specs=ewl_c.specs
